@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	line-height: 1.4;
+	font-size: 1.4rem;
+}
+
+.container {
+	max-width: 45rem;
+	border: 0.1rem solid #ccc;
+	padding: 1rem 0 1rem 1rem;
+	margin: 2rem 0 0 2rem;
+}
