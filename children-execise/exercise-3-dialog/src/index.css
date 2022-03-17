@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	min-height: 100vh;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	max-width: 45rem;
+	border: 0.1rem solid #ddd;
+	flex-direction: column;
+}
+
+.title,
+.body {
+	align-self: flex-start;
+	border-bottom: 0.1rem solid #ddd;
+	width: 100%;
+	padding: 1rem;
+}
+
+.body {
+	text-transform: capitalize;
+}
+
+.footer {
+	align-self: flex-end;
+	padding: 0.5rem 1rem;
+	margin: 0.5rem;
+	border: 0.1rem solid #ddd;
+	outline: none;
+	cursor: pointer;
+}
