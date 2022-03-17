@@ -66,7 +66,7 @@ ReactDOM.render(
 	document.querySelector("#root")
 );
 
-// ANOTHER METHOD AS SOLUTION
+// ANOTHER METHOD AS SOLUTION FOR EXERICSE TWO
 
 // // FIRSTCHILDONLY COMPONENT
 // function FirstChildOnly({ children }) {
