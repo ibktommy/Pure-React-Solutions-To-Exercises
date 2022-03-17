@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	border: 0.1rem solid red;
+	border-radius: 0.5rem;
+	background-color: darkcyan;
+	padding: 2rem 1rem;
+	width: 35rem;
+	font-size: 2rem;
+	color: red;
+	text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.8);
+}
+
+.container-child {
+	margin: 0.5rem 0;
+	color: #fff;
+}
+
+i {
+	margin-right: 1rem;
+}
