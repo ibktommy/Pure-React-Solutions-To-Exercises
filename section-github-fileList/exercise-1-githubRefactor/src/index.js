@@ -49,7 +49,7 @@ FileList.propTypes = {
 	files: PropTypes.array,
 };
 
-// File List Sub-Component - 1
+// File List Item Sub-Component - 1
 const FileListItem = ({ file }) => (
 	<div className="file-list-item">
 		<FileName file={file} />
