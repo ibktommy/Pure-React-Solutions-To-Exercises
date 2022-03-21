@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+}
+
+body {
+	width: 100vw;
+	min-height: 100vh;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.trello-container {
+	max-width: 120rem;
+	justify-content: space-between;
+	gap: 2rem;
+}
+
+.trello-card {
+	width: 30rem;
+	min-height: 30rem;
+	border: 0.2rem solid cornflowerblue;
+	background: #ccc;
+	padding: 1rem;
+}
+
+.header {
+	justify-content: space-between;
+	font-size: 2rem;
+}
+
+i {
+	cursor: pointer;
+}
+
+.title {
+	font-weight: 600;
+}
+
+.card-list {
+	margin: 2rem 0;
+}
+
+.item-container {
+	background: #eef;
+	margin-bottom: 2rem;
+	padding: 0.8rem;
+	font-size: 1.6rem;
+	border-radius: 0.2rem;
+	box-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.4);
+}
+
+.footer {
+	font-size: 2rem;
+	color: grey;
+}
