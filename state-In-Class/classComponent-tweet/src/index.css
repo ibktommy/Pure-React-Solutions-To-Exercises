@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	width: 100vw;
+	min-height: 100vh;
+}
+
+.card {
+	border: 0.1rem solid #777;
+	padding: 1rem;
+}
+
+.row {
+	margin-bottom: 1rem;
+	border: 1px solid #ccc;
+}
